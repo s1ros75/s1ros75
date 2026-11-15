@@ -13,8 +13,9 @@ Webデザイナーとして約8年、中小企業のWebサイト約200件のデ�
 要件を調べて開発チケットにまとめるときに、「確認済み・不明点・仮定」とその根拠を分けて残すアプリ。
 実務で感じた「確認したはずの根拠がたどれない」という課題から作りました。
 - React 19 / TypeScript ＋ Rails 8.1（APIモード）＋ PostgreSQL
-- テストを先に書く進め方（RSpec 125件、Vitest 61件）、GitHub Actions で Brakeman・bundler-audit も実行
+- テストを先に書く進め方（RSpec 135件、Vitest 66件）、GitHub Actions で Brakeman・bundler-audit も実行
 - DBで管理するセッション、CSRF対策、ログイン試行の制限、ロックによる二重処理の防止
+- 一覧はキーセット方式のページ送り。100万件で測り、どの位置でも 0.2 ms 以内
 - デモ：https://ticket-evidence.onrender.com/
 
 ### [the-routine-plate](https://github.com/s1ros75/the-routine-plate)

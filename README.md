@@ -19,11 +19,6 @@ Webデザイナーとして約8年、中小企業のWebサイト約200件のデ�
 - 一覧はキーセット方式のページ送り。100万件で測り、どの位置でも 0.2 ms 以内
 - デモ：https://ticket-evidence.onrender.com/
 
-### [the-routine-plate](https://github.com/s1ros75/the-routine-plate)
-高タンパク・低塩分の食事プランニングと栄養管理を、少ない操作で続けられるようにするアプリ。
-- React / TypeScript ＋ Rails 7.2（APIモード）＋ PostgreSQL
-- デモ：https://the-routine-plate.vercel.app
-
 ## 技術
 - **Frontend**：React / TypeScript / JavaScript / HTML / CSS
 - **Backend**：Ruby on Rails / PostgreSQL
